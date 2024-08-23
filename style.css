@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+.accordion{
+    /* border: 1px solid brown; */
+    width: 600px;
+  margin: 0 auto;
+
+}
+.accordion h2{
+    color: white;
+    background-color: rgb(165, 42, 42);
+    padding: 10px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.accordion h2:hover{
+    background: #dc2b2b;
+}
+.accordion p{
+    padding: 10px;
+    background-color: burlywood;
+    display: none;
+}
+.accordion-item{
+    margin-bottom: 10px;
+}
+.accordion-item.active p{
+    display: block;
+}
